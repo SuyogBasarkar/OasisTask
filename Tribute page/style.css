@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #000000;
+    min-height: 100vh;
+    border: 10px solid #ffffff;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+  .top_section h1 {
+    margin:10px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f7f2f2;
+    text-transform: uppercase;
+    
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    color: #e9e2e2;
+  }
+  
+  .image_container {
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 400px;
+    height: 300px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #f8f2f2;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #fcfbfb;
+  }
+  .childhood_section {
+    margin:50px 0;
+    color: #fcfcfc;
+  }
+  .childhood_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #f6f3f3;
+  }
+  .childhood_section p {
+    margin:20px 0;
+  }
+  .invention_section {
+    margin: 50px 0;
+    color: #f5f3f3;
+  }
+  .invention_section h2 {
+    margin-bottom: 20px;
+  }
+  .invention_section ul {
+    margin-left: 50px;
+  }
+  .invention_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  footer {
+    margin: 50px 0;
+    color: #ffffff;
+  }
+  footer p {
+    text-align: end;
+  }
